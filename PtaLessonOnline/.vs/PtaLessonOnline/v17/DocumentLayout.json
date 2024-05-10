@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Work Space\\ASPNET NTU\\K22CNT4_ASPNETMVC_PhanTruongAnh\\PtaLessonOnline\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{70128457-FAB7-4E4F-9DBC-EF41C974A7E2}|PtaLessonOnline\\PtaLessonOnline.csproj|C:\\Work Space\\ASPNET NTU\\K22CNT4_ASPNETMVC_PhanTruongAnh\\PtaLessonOnline\\ptalessononline\\controllers\\ptastudentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70128457-FAB7-4E4F-9DBC-EF41C974A7E2}|PtaLessonOnline\\PtaLessonOnline.csproj|solutionrelative:ptalessononline\\controllers\\ptastudentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70128457-FAB7-4E4F-9DBC-EF41C974A7E2}|PtaLessonOnline\\PtaLessonOnline.csproj|c:\\work space\\aspnet ntu\\k22cnt4_aspnetmvc_phantruonganh\\ptalessononline\\ptalessononline\\views\\ptastudent\\addnewstudent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{70128457-FAB7-4E4F-9DBC-EF41C974A7E2}|PtaLessonOnline\\PtaLessonOnline.csproj|solutionrelative:ptalessononline\\views\\ptastudent\\addnewstudent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70128457-FAB7-4E4F-9DBC-EF41C974A7E2}|PtaLessonOnline\\PtaLessonOnline.csproj|c:\\work space\\aspnet ntu\\k22cnt4_aspnetmvc_phantruonganh\\ptalessononline\\ptalessononline\\views\\ptastudent\\ketqua.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{70128457-FAB7-4E4F-9DBC-EF41C974A7E2}|PtaLessonOnline\\PtaLessonOnline.csproj|solutionrelative:ptalessononline\\views\\ptastudent\\ketqua.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70128457-FAB7-4E4F-9DBC-EF41C974A7E2}|PtaLessonOnline\\PtaLessonOnline.csproj|c:\\work space\\aspnet ntu\\k22cnt4_aspnetmvc_phantruonganh\\ptalessononline\\ptalessononline\\views\\ptastudent\\ngonngurazor.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{70128457-FAB7-4E4F-9DBC-EF41C974A7E2}|PtaLessonOnline\\PtaLessonOnline.csproj|solutionrelative:ptalessononline\\views\\ptastudent\\ngonngurazor.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70128457-FAB7-4E4F-9DBC-EF41C974A7E2}|PtaLessonOnline\\PtaLessonOnline.csproj|C:\\Work Space\\ASPNET NTU\\K22CNT4_ASPNETMVC_PhanTruongAnh\\PtaLessonOnline\\ptalessononline\\views\\ptastudent\\chitiet.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{70128457-FAB7-4E4F-9DBC-EF41C974A7E2}|PtaLessonOnline\\PtaLessonOnline.csproj|solutionrelative:ptalessononline\\views\\ptastudent\\chitiet.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70128457-FAB7-4E4F-9DBC-EF41C974A7E2}|PtaLessonOnline\\PtaLessonOnline.csproj|C:\\Work Space\\ASPNET NTU\\K22CNT4_ASPNETMVC_PhanTruongAnh\\PtaLessonOnline\\ptalessononline\\views\\ptastudent\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{70128457-FAB7-4E4F-9DBC-EF41C974A7E2}|PtaLessonOnline\\PtaLessonOnline.csproj|solutionrelative:ptalessononline\\views\\ptastudent\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70128457-FAB7-4E4F-9DBC-EF41C974A7E2}|PtaLessonOnline\\PtaLessonOnline.csproj|C:\\Work Space\\ASPNET NTU\\K22CNT4_ASPNETMVC_PhanTruongAnh\\PtaLessonOnline\\ptalessononline\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{70128457-FAB7-4E4F-9DBC-EF41C974A7E2}|PtaLessonOnline\\PtaLessonOnline.csproj|solutionrelative:ptalessononline\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 204,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "KetQua.cshtml",
+              "DocumentMoniker": "C:\\Work Space\\ASPNET NTU\\K22CNT4_ASPNETMVC_PhanTruongAnh\\PtaLessonOnline\\PtaLessonOnline\\Views\\PtaStudent\\KetQua.cshtml",
+              "RelativeDocumentMoniker": "PtaLessonOnline\\Views\\PtaStudent\\KetQua.cshtml",
+              "ToolTip": "C:\\Work Space\\ASPNET NTU\\K22CNT4_ASPNETMVC_PhanTruongAnh\\PtaLessonOnline\\PtaLessonOnline\\Views\\PtaStudent\\KetQua.cshtml",
+              "RelativeToolTip": "PtaLessonOnline\\Views\\PtaStudent\\KetQua.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-08T12:09:42.606Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AddNewStudent.cshtml",
+              "DocumentMoniker": "C:\\Work Space\\ASPNET NTU\\K22CNT4_ASPNETMVC_PhanTruongAnh\\PtaLessonOnline\\PtaLessonOnline\\Views\\PtaStudent\\AddNewStudent.cshtml",
+              "RelativeDocumentMoniker": "PtaLessonOnline\\Views\\PtaStudent\\AddNewStudent.cshtml",
+              "ToolTip": "C:\\Work Space\\ASPNET NTU\\K22CNT4_ASPNETMVC_PhanTruongAnh\\PtaLessonOnline\\PtaLessonOnline\\Views\\PtaStudent\\AddNewStudent.cshtml",
+              "RelativeToolTip": "PtaLessonOnline\\Views\\PtaStudent\\AddNewStudent.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-08T11:32:57.68Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "NgonNguRazor.cshtml",
+              "DocumentMoniker": "C:\\Work Space\\ASPNET NTU\\K22CNT4_ASPNETMVC_PhanTruongAnh\\PtaLessonOnline\\PtaLessonOnline\\Views\\PtaStudent\\NgonNguRazor.cshtml",
+              "RelativeDocumentMoniker": "PtaLessonOnline\\Views\\PtaStudent\\NgonNguRazor.cshtml",
+              "ToolTip": "C:\\Work Space\\ASPNET NTU\\K22CNT4_ASPNETMVC_PhanTruongAnh\\PtaLessonOnline\\PtaLessonOnline\\Views\\PtaStudent\\NgonNguRazor.cshtml",
+              "RelativeToolTip": "PtaLessonOnline\\Views\\PtaStudent\\NgonNguRazor.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAACkAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-06T07:13:50.15Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "chiTiet.cshtml",
+              "DocumentMoniker": "C:\\Work Space\\ASPNET NTU\\K22CNT4_ASPNETMVC_PhanTruongAnh\\PtaLessonOnline\\PtaLessonOnline\\Views\\PtaStudent\\chiTiet.cshtml",
+              "RelativeDocumentMoniker": "PtaLessonOnline\\Views\\PtaStudent\\chiTiet.cshtml",
+              "ToolTip": "C:\\Work Space\\ASPNET NTU\\K22CNT4_ASPNETMVC_PhanTruongAnh\\PtaLessonOnline\\PtaLessonOnline\\Views\\PtaStudent\\chiTiet.cshtml",
+              "RelativeToolTip": "PtaLessonOnline\\Views\\PtaStudent\\chiTiet.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-06T07:07:11.316Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Work Space\\ASPNET NTU\\K22CNT4_ASPNETMVC_PhanTruongAnh\\PtaLessonOnline\\PtaLessonOnline\\Views\\PtaStudent\\Index.cshtml",
+              "RelativeDocumentMoniker": "PtaLessonOnline\\Views\\PtaStudent\\Index.cshtml",
+              "ToolTip": "C:\\Work Space\\ASPNET NTU\\K22CNT4_ASPNETMVC_PhanTruongAnh\\PtaLessonOnline\\PtaLessonOnline\\Views\\PtaStudent\\Index.cshtml",
+              "RelativeToolTip": "PtaLessonOnline\\Views\\PtaStudent\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-06T06:56:54.885Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PtaStudentController.cs",
+              "DocumentMoniker": "C:\\Work Space\\ASPNET NTU\\K22CNT4_ASPNETMVC_PhanTruongAnh\\PtaLessonOnline\\PtaLessonOnline\\Controllers\\PtaStudentController.cs",
+              "RelativeDocumentMoniker": "PtaLessonOnline\\Controllers\\PtaStudentController.cs",
+              "ToolTip": "C:\\Work Space\\ASPNET NTU\\K22CNT4_ASPNETMVC_PhanTruongAnh\\PtaLessonOnline\\PtaLessonOnline\\Controllers\\PtaStudentController.cs",
+              "RelativeToolTip": "PtaLessonOnline\\Controllers\\PtaStudentController.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAmwDEAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T06:55:56.37Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Work Space\\ASPNET NTU\\K22CNT4_ASPNETMVC_PhanTruongAnh\\PtaLessonOnline\\PtaLessonOnline\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "PtaLessonOnline\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Work Space\\ASPNET NTU\\K22CNT4_ASPNETMVC_PhanTruongAnh\\PtaLessonOnline\\PtaLessonOnline\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "PtaLessonOnline\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-06T06:54:00.995Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

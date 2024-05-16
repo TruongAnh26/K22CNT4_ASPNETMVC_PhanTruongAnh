@@ -1,0 +1,22 @@
+﻿@model Pta_Lab04.Models.PtaCustomer
+@{
+    ViewBag.Title = "PtaCreateCustomer";
+}
+
+<h2>PtaCreateCustomer</h2>
+@using (Html.BeginForm())
+{
+    <div>@Html.LabelFor(model => model.CustomerID)</div>
+    <div>@Html.EditorFor(model => model.CustomerID)</div>
+    <div>@Html.LabelFor(model => model.CustomerName)</div>
+    <div>@Html.EditorFor(model => model.CustomerName)</div>
+    <div>@Html.LabelFor(model => model.Address)</div>
+    <div>@Html.EditorFor(model => model.Address)</div>
+    <div>@Html.LabelFor(model => model.YearOfBirth)</div>
+    <div>@Html.EditorFor(model => model.YearOfBirth)</div>
+    <div><input type="submit" value="save" /></div>
+
+
+
+}
+

@@ -1,0 +1,42 @@
+﻿@model Pta_Lab04.Models.PtaSong
+
+@{
+    ViewBag.Title = "PtaDetail";
+}
+
+<h2>PtaDetail</h2>
+
+<div>
+    <h4>PtaSong</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Author)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Author)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Artist)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Artist)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "PtaEdit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

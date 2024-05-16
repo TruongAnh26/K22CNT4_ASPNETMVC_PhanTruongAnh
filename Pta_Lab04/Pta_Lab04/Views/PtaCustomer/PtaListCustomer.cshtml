@@ -1,0 +1,25 @@
+﻿@model IEnumerable<Pta_Lab04.Models.PtaCustomer>
+@{
+    ViewBag.Title = "PtaListCustomer";
+    
+}
+
+<h2>PtaListCustomer</h2>
+<table>
+    <tr>
+        <th>Mã số</th>
+        <th>Tên</th>
+        <th>Địa chỉ</th>
+        <th>Năm sinh</th>
+    </tr>
+    @foreach(var cus in Model)
+            {
+                <tr>
+                    <td>@cus.CustomerID</td>
+                    <td>@cus.CustomerName</td>
+                    <td>@cus.Address</td>
+                    <td>@cus.YearOfBirth</td>
+                </tr>
+            }
+</table>
+

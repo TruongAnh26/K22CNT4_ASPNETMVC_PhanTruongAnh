@@ -1,0 +1,31 @@
+﻿
+@{
+    ViewBag.Title = "PtaCustomerList";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var listCustomer = ViewBag.listCustomer as List<lab4_model.Models.PtaCustomer>;
+}
+
+<h2>Danh sach khach hang</h2>
+<table>
+    <thead>
+        <tr>
+            <th>Ma KH</th>
+            <th>Ho ten</th>
+            <th>Dia Chi</th>
+            <th>Email</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var c in listCustomer)
+            {
+                <tr>
+                    <td>@c.PtaCustomId</td>
+                    <td>@c.PtaFullName</td>
+                    <td>@c.Address</td>
+                    <td>@c.Email</td>
+
+                </tr>
+            }
+    </tbody>
+</table>
+

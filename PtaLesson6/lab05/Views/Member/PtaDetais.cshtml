@@ -1,0 +1,42 @@
+﻿@model lab05.Models.PtaMember
+
+@{
+    ViewBag.Title = "PtaDetais";
+}
+
+<h2>PtaDetais</h2>
+
+<div>
+    <h4>PtaMember</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.PtaUserName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PtaUserName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PtaPassword)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PtaPassword)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PtaAge)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PtaAge)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

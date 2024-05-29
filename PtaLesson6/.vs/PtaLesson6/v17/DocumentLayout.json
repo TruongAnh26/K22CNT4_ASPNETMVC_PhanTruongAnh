@@ -1,0 +1,143 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Work Space\\ASPNET NTU\\K22CNT4_ASPNETMVC_PhanTruongAnh\\PtaLesson6\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BAF1B886-E251-439A-81E2-36187A2FC83C}|lab05\\lab05.csproj|c:\\work space\\aspnet ntu\\k22cnt4_aspnetmvc_phantruonganh\\ptalesson6\\lab05\\controllers\\membercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAF1B886-E251-439A-81E2-36187A2FC83C}|lab05\\lab05.csproj|solutionrelative:lab05\\controllers\\membercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAF1B886-E251-439A-81E2-36187A2FC83C}|lab05\\lab05.csproj|c:\\work space\\aspnet ntu\\k22cnt4_aspnetmvc_phantruonganh\\ptalesson6\\lab05\\views\\member\\ptacreatetwo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BAF1B886-E251-439A-81E2-36187A2FC83C}|lab05\\lab05.csproj|solutionrelative:lab05\\views\\member\\ptacreatetwo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAF1B886-E251-439A-81E2-36187A2FC83C}|lab05\\lab05.csproj|c:\\work space\\aspnet ntu\\k22cnt4_aspnetmvc_phantruonganh\\ptalesson6\\lab05\\views\\member\\ptacreateone.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BAF1B886-E251-439A-81E2-36187A2FC83C}|lab05\\lab05.csproj|solutionrelative:lab05\\views\\member\\ptacreateone.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAF1B886-E251-439A-81E2-36187A2FC83C}|lab05\\lab05.csproj|c:\\work space\\aspnet ntu\\k22cnt4_aspnetmvc_phantruonganh\\ptalesson6\\lab05\\views\\member\\ptadetais.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BAF1B886-E251-439A-81E2-36187A2FC83C}|lab05\\lab05.csproj|solutionrelative:lab05\\views\\member\\ptadetais.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAF1B886-E251-439A-81E2-36187A2FC83C}|lab05\\lab05.csproj|c:\\work space\\aspnet ntu\\k22cnt4_aspnetmvc_phantruonganh\\ptalesson6\\lab05\\views\\member\\ptacreatethree.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BAF1B886-E251-439A-81E2-36187A2FC83C}|lab05\\lab05.csproj|solutionrelative:lab05\\views\\member\\ptacreatethree.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAF1B886-E251-439A-81E2-36187A2FC83C}|lab05\\lab05.csproj|c:\\work space\\aspnet ntu\\k22cnt4_aspnetmvc_phantruonganh\\ptalesson6\\lab05\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BAF1B886-E251-439A-81E2-36187A2FC83C}|lab05\\lab05.csproj|solutionrelative:lab05\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAF1B886-E251-439A-81E2-36187A2FC83C}|lab05\\lab05.csproj|c:\\work space\\aspnet ntu\\k22cnt4_aspnetmvc_phantruonganh\\ptalesson6\\lab05\\models\\ptamember.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAF1B886-E251-439A-81E2-36187A2FC83C}|lab05\\lab05.csproj|solutionrelative:lab05\\models\\ptamember.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PtaCreateThree.cshtml",
+              "DocumentMoniker": "C:\\Work Space\\ASPNET NTU\\K22CNT4_ASPNETMVC_PhanTruongAnh\\PtaLesson6\\lab05\\Views\\Member\\PtaCreateThree.cshtml",
+              "RelativeDocumentMoniker": "lab05\\Views\\Member\\PtaCreateThree.cshtml",
+              "ToolTip": "C:\\Work Space\\ASPNET NTU\\K22CNT4_ASPNETMVC_PhanTruongAnh\\PtaLesson6\\lab05\\Views\\Member\\PtaCreateThree.cshtml",
+              "RelativeToolTip": "lab05\\Views\\Member\\PtaCreateThree.cshtml",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAAB4AAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-29T03:49:44.884Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PtaDetais.cshtml",
+              "DocumentMoniker": "C:\\Work Space\\ASPNET NTU\\K22CNT4_ASPNETMVC_PhanTruongAnh\\PtaLesson6\\lab05\\Views\\Member\\PtaDetais.cshtml",
+              "RelativeDocumentMoniker": "lab05\\Views\\Member\\PtaDetais.cshtml",
+              "ToolTip": "C:\\Work Space\\ASPNET NTU\\K22CNT4_ASPNETMVC_PhanTruongAnh\\PtaLesson6\\lab05\\Views\\Member\\PtaDetais.cshtml",
+              "RelativeToolTip": "lab05\\Views\\Member\\PtaDetais.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-29T03:48:38.812Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PtaCreateTwo.cshtml",
+              "DocumentMoniker": "C:\\Work Space\\ASPNET NTU\\K22CNT4_ASPNETMVC_PhanTruongAnh\\PtaLesson6\\lab05\\Views\\Member\\PtaCreateTwo.cshtml",
+              "RelativeDocumentMoniker": "lab05\\Views\\Member\\PtaCreateTwo.cshtml",
+              "ToolTip": "C:\\Work Space\\ASPNET NTU\\K22CNT4_ASPNETMVC_PhanTruongAnh\\PtaLesson6\\lab05\\Views\\Member\\PtaCreateTwo.cshtml",
+              "RelativeToolTip": "lab05\\Views\\Member\\PtaCreateTwo.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-29T03:42:09.128Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PtaCreateOne.cshtml",
+              "DocumentMoniker": "C:\\Work Space\\ASPNET NTU\\K22CNT4_ASPNETMVC_PhanTruongAnh\\PtaLesson6\\lab05\\Views\\Member\\PtaCreateOne.cshtml",
+              "RelativeDocumentMoniker": "lab05\\Views\\Member\\PtaCreateOne.cshtml",
+              "ToolTip": "C:\\Work Space\\ASPNET NTU\\K22CNT4_ASPNETMVC_PhanTruongAnh\\PtaLesson6\\lab05\\Views\\Member\\PtaCreateOne.cshtml",
+              "RelativeToolTip": "lab05\\Views\\Member\\PtaCreateOne.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAkwC0AAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-29T03:30:30.452Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MemberController.cs",
+              "DocumentMoniker": "C:\\Work Space\\ASPNET NTU\\K22CNT4_ASPNETMVC_PhanTruongAnh\\PtaLesson6\\lab05\\Controllers\\MemberController.cs",
+              "RelativeDocumentMoniker": "lab05\\Controllers\\MemberController.cs",
+              "ToolTip": "C:\\Work Space\\ASPNET NTU\\K22CNT4_ASPNETMVC_PhanTruongAnh\\PtaLesson6\\lab05\\Controllers\\MemberController.cs",
+              "RelativeToolTip": "lab05\\Controllers\\MemberController.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAuwBsAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T03:16:32.762Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Work Space\\ASPNET NTU\\K22CNT4_ASPNETMVC_PhanTruongAnh\\PtaLesson6\\lab05\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "lab05\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Work Space\\ASPNET NTU\\K22CNT4_ASPNETMVC_PhanTruongAnh\\PtaLesson6\\lab05\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "lab05\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAABbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-29T03:13:29.873Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PtaMember.cs",
+              "DocumentMoniker": "C:\\Work Space\\ASPNET NTU\\K22CNT4_ASPNETMVC_PhanTruongAnh\\PtaLesson6\\lab05\\Models\\PtaMember.cs",
+              "RelativeDocumentMoniker": "lab05\\Models\\PtaMember.cs",
+              "ToolTip": "C:\\Work Space\\ASPNET NTU\\K22CNT4_ASPNETMVC_PhanTruongAnh\\PtaLesson6\\lab05\\Models\\PtaMember.cs",
+              "RelativeToolTip": "lab05\\Models\\PtaMember.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T03:05:22.978Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

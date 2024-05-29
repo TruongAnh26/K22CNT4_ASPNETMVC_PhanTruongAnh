@@ -1,0 +1,67 @@
+﻿@model lab05.Models.PtaMember
+
+@{
+    ViewBag.Title = "Kiem tra du liẹu theo cach 3";
+}
+
+<h2>PtaCreateThree</h2>
+
+
+@using (Html.BeginForm()) 
+{
+    @Html.AntiForgeryToken()
+    
+<div class="form-horizontal">
+    <h4>PtaMember</h4>
+    <hr />
+    @Html.ValidationSummary(true)
+    <div class="form-group">
+        @Html.Label("Mã thành viên", new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.Id)
+            @Html.ValidationMessageFor(model => model.Id)
+
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.Label("Tên đăng nhập", new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.PtaUserName)
+            @Html.ValidationMessageFor(model => model.PtaUserName)
+
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.Label("Tuổi", new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.PtaAge)
+            @Html.ValidationMessageFor(model => model.PtaAge)
+
+        </div>
+    </div>
+    <div class="form-group">
+        @Html.Label("Mật khẩu", new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.PtaPassword)
+            @Html.ValidationMessageFor(model => model.PtaPassword)
+
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+            <input type="submit" value="Create" class="btn btn-default" />
+        </div>
+    </div>
+</div>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

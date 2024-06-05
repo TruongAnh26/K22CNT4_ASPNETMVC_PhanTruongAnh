@@ -1,0 +1,66 @@
+﻿@model PtaLesson06CF.Models.PtaBook
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>PtaBook</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.PtaBookId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PtaBookId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PtaTitle)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PtaTitle)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PtaAuthor)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PtaAuthor)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PtaYear)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PtaYear)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PtaPublisher)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PtaPublisher)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PtaCategoryID)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PtaCategoryID)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.PtaId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

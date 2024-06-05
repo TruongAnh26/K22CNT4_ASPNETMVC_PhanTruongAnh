@@ -1,0 +1,67 @@
+﻿@model Pta_BaiThiGiuaKy.Models.PtaCustomer
+
+@{
+    ViewBag.Title = "PtaDetails";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>PtaDetails</h2>
+
+<div>
+    <h4>PtaCustomer</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model._221090087_CustId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model._221090087_CustId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Pta_FullName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Pta_FullName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Pta_Address)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Pta_Address)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Pta_Email)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Pta_Email)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Pta_Phone)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Pta_Phone)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Pta_Balance)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Pta_Balance)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "PtaEdit", new { id = Model._221090087_CustId })
+    @Html.ActionLink("Back to List", "PtaIndex")
+</p>

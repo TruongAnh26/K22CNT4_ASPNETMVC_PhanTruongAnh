@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Work Space\\ASPNET NTU\\K22CNT4_ASPNETMVC_PhanTruongAnh\\Pta_BaiThiGiuaKy\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BE2DB759-3AA6-44BB-BE4B-B31671C59DD4}|Pta_BaiThiGiuaKy\\Pta_BaiThiGiuaKy.csproj|C:\\Work Space\\ASPNET NTU\\K22CNT4_ASPNETMVC_PhanTruongAnh\\Pta_BaiThiGiuaKy\\pta_baithigiuaky\\controllers\\ptacustomercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE2DB759-3AA6-44BB-BE4B-B31671C59DD4}|Pta_BaiThiGiuaKy\\Pta_BaiThiGiuaKy.csproj|solutionrelative:pta_baithigiuaky\\controllers\\ptacustomercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE2DB759-3AA6-44BB-BE4B-B31671C59DD4}|Pta_BaiThiGiuaKy\\Pta_BaiThiGiuaKy.csproj|c:\\work space\\aspnet ntu\\k22cnt4_aspnetmvc_phantruonganh\\pta_baithigiuaky\\pta_baithigiuaky\\views\\ptacustomer\\ptaindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE2DB759-3AA6-44BB-BE4B-B31671C59DD4}|Pta_BaiThiGiuaKy\\Pta_BaiThiGiuaKy.csproj|solutionrelative:pta_baithigiuaky\\views\\ptacustomer\\ptaindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE2DB759-3AA6-44BB-BE4B-B31671C59DD4}|Pta_BaiThiGiuaKy\\Pta_BaiThiGiuaKy.csproj|C:\\Work Space\\ASPNET NTU\\K22CNT4_ASPNETMVC_PhanTruongAnh\\Pta_BaiThiGiuaKy\\pta_baithigiuaky\\views\\ptacustomer\\ptadetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE2DB759-3AA6-44BB-BE4B-B31671C59DD4}|Pta_BaiThiGiuaKy\\Pta_BaiThiGiuaKy.csproj|solutionrelative:pta_baithigiuaky\\views\\ptacustomer\\ptadetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE2DB759-3AA6-44BB-BE4B-B31671C59DD4}|Pta_BaiThiGiuaKy\\Pta_BaiThiGiuaKy.csproj|C:\\Work Space\\ASPNET NTU\\K22CNT4_ASPNETMVC_PhanTruongAnh\\Pta_BaiThiGiuaKy\\pta_baithigiuaky\\views\\ptacustomer\\ptaedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE2DB759-3AA6-44BB-BE4B-B31671C59DD4}|Pta_BaiThiGiuaKy\\Pta_BaiThiGiuaKy.csproj|solutionrelative:pta_baithigiuaky\\views\\ptacustomer\\ptaedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE2DB759-3AA6-44BB-BE4B-B31671C59DD4}|Pta_BaiThiGiuaKy\\Pta_BaiThiGiuaKy.csproj|C:\\Work Space\\ASPNET NTU\\K22CNT4_ASPNETMVC_PhanTruongAnh\\Pta_BaiThiGiuaKy\\pta_baithigiuaky\\views\\ptacustomer\\ptacreate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE2DB759-3AA6-44BB-BE4B-B31671C59DD4}|Pta_BaiThiGiuaKy\\Pta_BaiThiGiuaKy.csproj|solutionrelative:pta_baithigiuaky\\views\\ptacustomer\\ptacreate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE2DB759-3AA6-44BB-BE4B-B31671C59DD4}|Pta_BaiThiGiuaKy\\Pta_BaiThiGiuaKy.csproj|C:\\Work Space\\ASPNET NTU\\K22CNT4_ASPNETMVC_PhanTruongAnh\\Pta_BaiThiGiuaKy\\pta_baithigiuaky\\models\\ptacustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE2DB759-3AA6-44BB-BE4B-B31671C59DD4}|Pta_BaiThiGiuaKy\\Pta_BaiThiGiuaKy.csproj|solutionrelative:pta_baithigiuaky\\models\\ptacustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE2DB759-3AA6-44BB-BE4B-B31671C59DD4}|Pta_BaiThiGiuaKy\\Pta_BaiThiGiuaKy.csproj|C:\\Work Space\\ASPNET NTU\\K22CNT4_ASPNETMVC_PhanTruongAnh\\Pta_BaiThiGiuaKy\\pta_baithigiuaky\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE2DB759-3AA6-44BB-BE4B-B31671C59DD4}|Pta_BaiThiGiuaKy\\Pta_BaiThiGiuaKy.csproj|solutionrelative:pta_baithigiuaky\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PtaDetails.cshtml",
+              "DocumentMoniker": "C:\\Work Space\\ASPNET NTU\\K22CNT4_ASPNETMVC_PhanTruongAnh\\Pta_BaiThiGiuaKy\\Pta_BaiThiGiuaKy\\Views\\PtaCustomer\\PtaDetails.cshtml",
+              "RelativeDocumentMoniker": "Pta_BaiThiGiuaKy\\Views\\PtaCustomer\\PtaDetails.cshtml",
+              "ToolTip": "C:\\Work Space\\ASPNET NTU\\K22CNT4_ASPNETMVC_PhanTruongAnh\\Pta_BaiThiGiuaKy\\Pta_BaiThiGiuaKy\\Views\\PtaCustomer\\PtaDetails.cshtml",
+              "RelativeToolTip": "Pta_BaiThiGiuaKy\\Views\\PtaCustomer\\PtaDetails.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEAAAABKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-29T08:07:15.142Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PtaIndex.cshtml",
+              "DocumentMoniker": "C:\\Work Space\\ASPNET NTU\\K22CNT4_ASPNETMVC_PhanTruongAnh\\Pta_BaiThiGiuaKy\\Pta_BaiThiGiuaKy\\Views\\PtaCustomer\\PtaIndex.cshtml",
+              "RelativeDocumentMoniker": "Pta_BaiThiGiuaKy\\Views\\PtaCustomer\\PtaIndex.cshtml",
+              "ToolTip": "C:\\Work Space\\ASPNET NTU\\K22CNT4_ASPNETMVC_PhanTruongAnh\\Pta_BaiThiGiuaKy\\Pta_BaiThiGiuaKy\\Views\\PtaCustomer\\PtaIndex.cshtml",
+              "RelativeToolTip": "Pta_BaiThiGiuaKy\\Views\\PtaCustomer\\PtaIndex.cshtml",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAACAAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-29T07:01:15.386Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PtaCustomerController.cs",
+              "DocumentMoniker": "C:\\Work Space\\ASPNET NTU\\K22CNT4_ASPNETMVC_PhanTruongAnh\\Pta_BaiThiGiuaKy\\Pta_BaiThiGiuaKy\\Controllers\\PtaCustomerController.cs",
+              "RelativeDocumentMoniker": "Pta_BaiThiGiuaKy\\Controllers\\PtaCustomerController.cs",
+              "ToolTip": "C:\\Work Space\\ASPNET NTU\\K22CNT4_ASPNETMVC_PhanTruongAnh\\Pta_BaiThiGiuaKy\\Pta_BaiThiGiuaKy\\Controllers\\PtaCustomerController.cs",
+              "RelativeToolTip": "Pta_BaiThiGiuaKy\\Controllers\\PtaCustomerController.cs",
+              "ViewState": "AQIAACgAAAAAAAAAAAAkwA8AAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T06:52:17.829Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PtaEdit.cshtml",
+              "DocumentMoniker": "C:\\Work Space\\ASPNET NTU\\K22CNT4_ASPNETMVC_PhanTruongAnh\\Pta_BaiThiGiuaKy\\Pta_BaiThiGiuaKy\\Views\\PtaCustomer\\PtaEdit.cshtml",
+              "RelativeDocumentMoniker": "Pta_BaiThiGiuaKy\\Views\\PtaCustomer\\PtaEdit.cshtml",
+              "ToolTip": "C:\\Work Space\\ASPNET NTU\\K22CNT4_ASPNETMVC_PhanTruongAnh\\Pta_BaiThiGiuaKy\\Pta_BaiThiGiuaKy\\Views\\PtaCustomer\\PtaEdit.cshtml",
+              "RelativeToolTip": "Pta_BaiThiGiuaKy\\Views\\PtaCustomer\\PtaEdit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAABLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-29T08:01:24.738Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PtaCustomer.cs",
+              "DocumentMoniker": "C:\\Work Space\\ASPNET NTU\\K22CNT4_ASPNETMVC_PhanTruongAnh\\Pta_BaiThiGiuaKy\\Pta_BaiThiGiuaKy\\Models\\PtaCustomer.cs",
+              "RelativeDocumentMoniker": "Pta_BaiThiGiuaKy\\Models\\PtaCustomer.cs",
+              "ToolTip": "C:\\Work Space\\ASPNET NTU\\K22CNT4_ASPNETMVC_PhanTruongAnh\\Pta_BaiThiGiuaKy\\Pta_BaiThiGiuaKy\\Models\\PtaCustomer.cs",
+              "RelativeToolTip": "Pta_BaiThiGiuaKy\\Models\\PtaCustomer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T06:48:43.795Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PtaCreate.cshtml",
+              "DocumentMoniker": "C:\\Work Space\\ASPNET NTU\\K22CNT4_ASPNETMVC_PhanTruongAnh\\Pta_BaiThiGiuaKy\\Pta_BaiThiGiuaKy\\Views\\PtaCustomer\\PtaCreate.cshtml",
+              "RelativeDocumentMoniker": "Pta_BaiThiGiuaKy\\Views\\PtaCustomer\\PtaCreate.cshtml",
+              "ToolTip": "C:\\Work Space\\ASPNET NTU\\K22CNT4_ASPNETMVC_PhanTruongAnh\\Pta_BaiThiGiuaKy\\Pta_BaiThiGiuaKy\\Views\\PtaCustomer\\PtaCreate.cshtml",
+              "RelativeToolTip": "Pta_BaiThiGiuaKy\\Views\\PtaCustomer\\PtaCreate.cshtml",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAAABYAAABLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-29T07:10:29.902Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Work Space\\ASPNET NTU\\K22CNT4_ASPNETMVC_PhanTruongAnh\\Pta_BaiThiGiuaKy\\Pta_BaiThiGiuaKy\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Pta_BaiThiGiuaKy\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Work Space\\ASPNET NTU\\K22CNT4_ASPNETMVC_PhanTruongAnh\\Pta_BaiThiGiuaKy\\Pta_BaiThiGiuaKy\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Pta_BaiThiGiuaKy\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAABOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-29T06:46:50.715Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

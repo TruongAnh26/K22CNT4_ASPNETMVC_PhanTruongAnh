@@ -1,0 +1,26 @@
+﻿@model PtaLesson06CF.Models.PtaCategories
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>PtaCategories</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.PtaCategoryName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PtaCategoryName)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.PtaId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

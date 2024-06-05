@@ -1,0 +1,65 @@
+﻿@model IEnumerable<Pta_BaiThiGiuaKy.Models.PtaCustomer>
+
+@{
+    ViewBag.Title = "PtaIndex";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Pta: Danh sách khách hang</h2>
+
+<p>
+    @Html.ActionLink("Create New", "PtaCreate")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model._221090087_CustId)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Pta_FullName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Pta_Address)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Pta_Email)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Pta_Phone)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Pta_Balance)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item._221090087_CustId)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Pta_FullName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Pta_Address)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Pta_Email)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Pta_Phone)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Pta_Balance)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "PtaEdit", new {  id=item._221090087_CustId }) |
+            @Html.ActionLink("Details", "PtaDetails", new { id=item._221090087_CustId }) |
+            @Html.ActionLink("Delete", "PtaDelete", new {  id=item._221090087_CustId },
+           new {@onclick ="return confirm('bạn có muốn xoá không')"})
+        </td>
+    </tr>
+}
+
+</table>

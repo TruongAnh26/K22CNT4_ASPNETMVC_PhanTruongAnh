@@ -1,0 +1,63 @@
+﻿@model IEnumerable<PtaLesson06CF.Models.PtaBook>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.PtaBookId)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PtaTitle)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PtaAuthor)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PtaYear)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PtaPublisher)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PtaCategoryID)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.PtaBookId)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.PtaTitle)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.PtaAuthor)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.PtaYear)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.PtaPublisher)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.PtaCategoryID)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.PtaId }) |
+            @Html.ActionLink("Details", "Details", new { id=item.PtaId }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.PtaId })
+        </td>
+    </tr>
+}
+
+</table>

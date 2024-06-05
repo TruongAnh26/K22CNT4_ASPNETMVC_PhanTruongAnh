@@ -1,0 +1,72 @@
+﻿@model PtaLesson06CF.Models.PtaBook
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>PtaBook</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.PtaBookId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PtaBookId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PtaTitle)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PtaTitle)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PtaAuthor)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PtaAuthor)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PtaYear)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PtaYear)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PtaPublisher)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PtaPublisher)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PtaCategoryID)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PtaCategoryID)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>

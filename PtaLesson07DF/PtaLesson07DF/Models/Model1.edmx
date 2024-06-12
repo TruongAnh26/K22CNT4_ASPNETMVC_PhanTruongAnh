@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="PtaLesson07DFModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="PtaKhoa">
+          <Key>
+            <PropertyRef Name="PtaMaKH" />
+          </Key>
+          <Property Name="PtaMaKH" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="PtaTenKH" Type="nvarchar" MaxLength="50" />
+          <Property Name="PtaTrangThai" Type="bit" />
+        </EntityType>
+        <EntityType Name="PtaSinhVien">
+          <Key>
+            <PropertyRef Name="PtaMaSV" />
+          </Key>
+          <Property Name="PtaMaSV" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="PtaTenSV" Type="nvarchar" MaxLength="50" />
+          <Property Name="PtaPhone" Type="nvarchar" MaxLength="50" />
+          <Property Name="PtaEmail" Type="nvarchar" MaxLength="50" />
+          <Property Name="PtaPhai" Type="bit" />
+          <Property Name="PtaMaKH" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <EntityContainer Name="PtaLesson07DFModelStoreContainer">
+          <EntitySet Name="PtaKhoa" EntityType="Self.PtaKhoa" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="PtaSinhVien" EntityType="Self.PtaSinhVien" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="PtaLesson07DFModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="PtaKhoa">
+          <Key>
+            <PropertyRef Name="PtaMaKH" />
+          </Key>
+          <Property Name="PtaMaKH" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="PtaTenKH" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="PtaTrangThai" Type="Boolean" />
+        </EntityType>
+        <EntityType Name="PtaSinhVien">
+          <Key>
+            <PropertyRef Name="PtaMaSV" />
+          </Key>
+          <Property Name="PtaMaSV" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="PtaTenSV" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="PtaPhone" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="PtaEmail" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="PtaPhai" Type="Boolean" />
+          <Property Name="PtaMaKH" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityContainer Name="PtaLesson07DFEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="PtaKhoas" EntityType="Self.PtaKhoa" />
+          <EntitySet Name="PtaSinhViens" EntityType="Self.PtaSinhVien" />
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="PtaLesson07DFModelStoreContainer" CdmEntityContainer="PtaLesson07DFEntities">
+          <EntitySetMapping Name="PtaKhoas">
+            <EntityTypeMapping TypeName="PtaLesson07DFModel.PtaKhoa">
+              <MappingFragment StoreEntitySet="PtaKhoa">
+                <ScalarProperty Name="PtaMaKH" ColumnName="PtaMaKH" />
+                <ScalarProperty Name="PtaTenKH" ColumnName="PtaTenKH" />
+                <ScalarProperty Name="PtaTrangThai" ColumnName="PtaTrangThai" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="PtaSinhViens">
+            <EntityTypeMapping TypeName="PtaLesson07DFModel.PtaSinhVien">
+              <MappingFragment StoreEntitySet="PtaSinhVien">
+                <ScalarProperty Name="PtaMaSV" ColumnName="PtaMaSV" />
+                <ScalarProperty Name="PtaTenSV" ColumnName="PtaTenSV" />
+                <ScalarProperty Name="PtaPhone" ColumnName="PtaPhone" />
+                <ScalarProperty Name="PtaEmail" ColumnName="PtaEmail" />
+                <ScalarProperty Name="PtaPhai" ColumnName="PtaPhai" />
+                <ScalarProperty Name="PtaMaKH" ColumnName="PtaMaKH" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

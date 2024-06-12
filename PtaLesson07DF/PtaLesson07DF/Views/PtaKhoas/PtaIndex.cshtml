@@ -1,0 +1,39 @@
+﻿@model IEnumerable<PtaLesson07DF.Models.PtaKhoa>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "PtaCreate")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.PtaTenKH)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PtaTrangThai)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.PtaTenKH)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.PtaTrangThai)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "PtaEdit", new { id=item.PtaMaKH }) |
+            @Html.ActionLink("Details", "PtaDetails", new { id=item.PtaMaKH }) |
+            @Html.ActionLink("Delete", "PtaDelete", new { id=item.PtaMaKH })
+        </td>
+    </tr>
+}
+
+</table>

@@ -1,0 +1,64 @@
+﻿@model PtaLesson07DF.Models.PtaSinhVien
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>PtaSinhVien</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.PtaTenSV)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PtaTenSV)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PtaPhone)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PtaPhone)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PtaEmail)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PtaEmail)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PtaPhai)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PtaPhai)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PtaMaKH)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PtaMaKH)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "PtaIndex")
+        </div>
+    }
+</div>

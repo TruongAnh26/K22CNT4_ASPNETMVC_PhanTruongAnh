@@ -1,0 +1,58 @@
+﻿@model PtaLesson07DF.Models.PtaSinhVien
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>PtaSinhVien</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.PtaTenSV)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PtaTenSV)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PtaPhone)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PtaPhone)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PtaEmail)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PtaEmail)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PtaPhai)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PtaPhai)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PtaMaKH)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PtaMaKH)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "PtaEdit", new { id = Model.PtaMaSV }) |
+    @Html.ActionLink("Back to List", "PtaIndex")
+</p>

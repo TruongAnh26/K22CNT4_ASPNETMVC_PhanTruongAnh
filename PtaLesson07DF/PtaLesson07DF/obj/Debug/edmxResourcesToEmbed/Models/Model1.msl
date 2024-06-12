@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="PtaLesson07DFModelStoreContainer" CdmEntityContainer="PtaLesson07DFEntities">
+    <EntitySetMapping Name="PtaKhoas">
+      <EntityTypeMapping TypeName="PtaLesson07DFModel.PtaKhoa">
+        <MappingFragment StoreEntitySet="PtaKhoa">
+          <ScalarProperty Name="PtaMaKH" ColumnName="PtaMaKH" />
+          <ScalarProperty Name="PtaTenKH" ColumnName="PtaTenKH" />
+          <ScalarProperty Name="PtaTrangThai" ColumnName="PtaTrangThai" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PtaSinhViens">
+      <EntityTypeMapping TypeName="PtaLesson07DFModel.PtaSinhVien">
+        <MappingFragment StoreEntitySet="PtaSinhVien">
+          <ScalarProperty Name="PtaMaSV" ColumnName="PtaMaSV" />
+          <ScalarProperty Name="PtaTenSV" ColumnName="PtaTenSV" />
+          <ScalarProperty Name="PtaPhone" ColumnName="PtaPhone" />
+          <ScalarProperty Name="PtaEmail" ColumnName="PtaEmail" />
+          <ScalarProperty Name="PtaPhai" ColumnName="PtaPhai" />
+          <ScalarProperty Name="PtaMaKH" ColumnName="PtaMaKH" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,210 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Work Space\\ASPNET NTU\\K22CNT4_ASPNETMVC_PhanTruongAnh\\PtaK22CNT4LS10\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2972AD6A-58F6-4B5D-9AEB-A4A0295B2A12}|PtaK22CNT4LS10\\PtaK22CNT4LS10.csproj|c:\\work space\\aspnet ntu\\k22cnt4_aspnetmvc_phantruonganh\\ptak22cnt4ls10\\ptak22cnt4ls10\\controllers\\ptahomecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2972AD6A-58F6-4B5D-9AEB-A4A0295B2A12}|PtaK22CNT4LS10\\PtaK22CNT4LS10.csproj|solutionrelative:ptak22cnt4ls10\\controllers\\ptahomecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2972AD6A-58F6-4B5D-9AEB-A4A0295B2A12}|PtaK22CNT4LS10\\PtaK22CNT4LS10.csproj|c:\\work space\\aspnet ntu\\k22cnt4_aspnetmvc_phantruonganh\\ptak22cnt4ls10\\ptak22cnt4ls10\\views\\ptahome\\ptaindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2972AD6A-58F6-4B5D-9AEB-A4A0295B2A12}|PtaK22CNT4LS10\\PtaK22CNT4LS10.csproj|solutionrelative:ptak22cnt4ls10\\views\\ptahome\\ptaindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2972AD6A-58F6-4B5D-9AEB-A4A0295B2A12}|PtaK22CNT4LS10\\PtaK22CNT4LS10.csproj|c:\\work space\\aspnet ntu\\k22cnt4_aspnetmvc_phantruonganh\\ptak22cnt4ls10\\ptak22cnt4ls10\\controllers\\ptaaccountscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2972AD6A-58F6-4B5D-9AEB-A4A0295B2A12}|PtaK22CNT4LS10\\PtaK22CNT4LS10.csproj|solutionrelative:ptak22cnt4ls10\\controllers\\ptaaccountscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2972AD6A-58F6-4B5D-9AEB-A4A0295B2A12}|PtaK22CNT4LS10\\PtaK22CNT4LS10.csproj|c:\\work space\\aspnet ntu\\k22cnt4_aspnetmvc_phantruonganh\\ptak22cnt4ls10\\ptak22cnt4ls10\\views\\shared\\_ptalayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2972AD6A-58F6-4B5D-9AEB-A4A0295B2A12}|PtaK22CNT4LS10\\PtaK22CNT4LS10.csproj|solutionrelative:ptak22cnt4ls10\\views\\shared\\_ptalayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2972AD6A-58F6-4B5D-9AEB-A4A0295B2A12}|PtaK22CNT4LS10\\PtaK22CNT4LS10.csproj|c:\\work space\\aspnet ntu\\k22cnt4_aspnetmvc_phantruonganh\\ptak22cnt4ls10\\ptak22cnt4ls10\\views\\ptaaccounts\\ptalogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2972AD6A-58F6-4B5D-9AEB-A4A0295B2A12}|PtaK22CNT4LS10\\PtaK22CNT4LS10.csproj|solutionrelative:ptak22cnt4ls10\\views\\ptaaccounts\\ptalogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2972AD6A-58F6-4B5D-9AEB-A4A0295B2A12}|PtaK22CNT4LS10\\PtaK22CNT4LS10.csproj|c:\\work space\\aspnet ntu\\k22cnt4_aspnetmvc_phantruonganh\\ptak22cnt4ls10\\ptak22cnt4ls10\\views\\ptaaccounts\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2972AD6A-58F6-4B5D-9AEB-A4A0295B2A12}|PtaK22CNT4LS10\\PtaK22CNT4LS10.csproj|solutionrelative:ptak22cnt4ls10\\views\\ptaaccounts\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2972AD6A-58F6-4B5D-9AEB-A4A0295B2A12}|PtaK22CNT4LS10\\PtaK22CNT4LS10.csproj|c:\\work space\\aspnet ntu\\k22cnt4_aspnetmvc_phantruonganh\\ptak22cnt4ls10\\ptak22cnt4ls10\\models\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{2972AD6A-58F6-4B5D-9AEB-A4A0295B2A12}|PtaK22CNT4LS10\\PtaK22CNT4LS10.csproj|solutionrelative:ptak22cnt4ls10\\models\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2972AD6A-58F6-4B5D-9AEB-A4A0295B2A12}|PtaK22CNT4LS10\\PtaK22CNT4LS10.csproj|c:\\work space\\aspnet ntu\\k22cnt4_aspnetmvc_phantruonganh\\ptak22cnt4ls10\\ptak22cnt4ls10\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2972AD6A-58F6-4B5D-9AEB-A4A0295B2A12}|PtaK22CNT4LS10\\PtaK22CNT4LS10.csproj|solutionrelative:ptak22cnt4ls10\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2972AD6A-58F6-4B5D-9AEB-A4A0295B2A12}|PtaK22CNT4LS10\\PtaK22CNT4LS10.csproj|c:\\work space\\aspnet ntu\\k22cnt4_aspnetmvc_phantruonganh\\ptak22cnt4ls10\\ptak22cnt4ls10\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{2972AD6A-58F6-4B5D-9AEB-A4A0295B2A12}|PtaK22CNT4LS10\\PtaK22CNT4LS10.csproj|solutionrelative:ptak22cnt4ls10\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2972AD6A-58F6-4B5D-9AEB-A4A0295B2A12}|PtaK22CNT4LS10\\PtaK22CNT4LS10.csproj|c:\\work space\\aspnet ntu\\k22cnt4_aspnetmvc_phantruonganh\\ptak22cnt4ls10\\ptak22cnt4ls10\\views\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{2972AD6A-58F6-4B5D-9AEB-A4A0295B2A12}|PtaK22CNT4LS10\\PtaK22CNT4LS10.csproj|solutionrelative:ptak22cnt4ls10\\views\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2972AD6A-58F6-4B5D-9AEB-A4A0295B2A12}|PtaK22CNT4LS10\\PtaK22CNT4LS10.csproj|c:\\work space\\aspnet ntu\\k22cnt4_aspnetmvc_phantruonganh\\ptak22cnt4ls10\\ptak22cnt4ls10\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2972AD6A-58F6-4B5D-9AEB-A4A0295B2A12}|PtaK22CNT4LS10\\PtaK22CNT4LS10.csproj|solutionrelative:ptak22cnt4ls10\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PtaAccountsController.cs",
+              "DocumentMoniker": "C:\\Work Space\\ASPNET NTU\\K22CNT4_ASPNETMVC_PhanTruongAnh\\PtaK22CNT4LS10\\PtaK22CNT4LS10\\Controllers\\PtaAccountsController.cs",
+              "RelativeDocumentMoniker": "PtaK22CNT4LS10\\Controllers\\PtaAccountsController.cs",
+              "ToolTip": "C:\\Work Space\\ASPNET NTU\\K22CNT4_ASPNETMVC_PhanTruongAnh\\PtaK22CNT4LS10\\PtaK22CNT4LS10\\Controllers\\PtaAccountsController.cs",
+              "RelativeToolTip": "PtaK22CNT4LS10\\Controllers\\PtaAccountsController.cs",
+              "ViewState": "AQIAAHUAAAAAAAAAAAAywIQAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-03T07:52:00.004Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PtaIndex.cshtml",
+              "DocumentMoniker": "C:\\Work Space\\ASPNET NTU\\K22CNT4_ASPNETMVC_PhanTruongAnh\\PtaK22CNT4LS10\\PtaK22CNT4LS10\\Views\\PtaHome\\PtaIndex.cshtml",
+              "RelativeDocumentMoniker": "PtaK22CNT4LS10\\Views\\PtaHome\\PtaIndex.cshtml",
+              "ToolTip": "C:\\Work Space\\ASPNET NTU\\K22CNT4_ASPNETMVC_PhanTruongAnh\\PtaK22CNT4LS10\\PtaK22CNT4LS10\\Views\\PtaHome\\PtaIndex.cshtml",
+              "RelativeToolTip": "PtaK22CNT4LS10\\Views\\PtaHome\\PtaIndex.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-03T07:05:07.6Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PtaHomeController.cs",
+              "DocumentMoniker": "C:\\Work Space\\ASPNET NTU\\K22CNT4_ASPNETMVC_PhanTruongAnh\\PtaK22CNT4LS10\\PtaK22CNT4LS10\\Controllers\\PtaHomeController.cs",
+              "RelativeDocumentMoniker": "PtaK22CNT4LS10\\Controllers\\PtaHomeController.cs",
+              "ToolTip": "C:\\Work Space\\ASPNET NTU\\K22CNT4_ASPNETMVC_PhanTruongAnh\\PtaK22CNT4LS10\\PtaK22CNT4LS10\\Controllers\\PtaHomeController.cs",
+              "RelativeToolTip": "PtaK22CNT4LS10\\Controllers\\PtaHomeController.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAAAA4AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-03T07:04:48.051Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_PtaLayout.cshtml",
+              "DocumentMoniker": "C:\\Work Space\\ASPNET NTU\\K22CNT4_ASPNETMVC_PhanTruongAnh\\PtaK22CNT4LS10\\PtaK22CNT4LS10\\Views\\Shared\\_PtaLayout.cshtml",
+              "RelativeDocumentMoniker": "PtaK22CNT4LS10\\Views\\Shared\\_PtaLayout.cshtml",
+              "ToolTip": "C:\\Work Space\\ASPNET NTU\\K22CNT4_ASPNETMVC_PhanTruongAnh\\PtaK22CNT4LS10\\PtaK22CNT4LS10\\Views\\Shared\\_PtaLayout.cshtml",
+              "RelativeToolTip": "PtaK22CNT4LS10\\Views\\Shared\\_PtaLayout.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABcAAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-03T07:03:14.913Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PtaLogin.cshtml",
+              "DocumentMoniker": "C:\\Work Space\\ASPNET NTU\\K22CNT4_ASPNETMVC_PhanTruongAnh\\PtaK22CNT4LS10\\PtaK22CNT4LS10\\Views\\PtaAccounts\\PtaLogin.cshtml",
+              "RelativeDocumentMoniker": "PtaK22CNT4LS10\\Views\\PtaAccounts\\PtaLogin.cshtml",
+              "ToolTip": "C:\\Work Space\\ASPNET NTU\\K22CNT4_ASPNETMVC_PhanTruongAnh\\PtaK22CNT4LS10\\PtaK22CNT4LS10\\Views\\PtaAccounts\\PtaLogin.cshtml",
+              "RelativeToolTip": "PtaK22CNT4LS10\\Views\\PtaAccounts\\PtaLogin.cshtml",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAACUAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-03T07:53:54.671Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Work Space\\ASPNET NTU\\K22CNT4_ASPNETMVC_PhanTruongAnh\\PtaK22CNT4LS10\\PtaK22CNT4LS10\\Views\\PtaAccounts\\Create.cshtml",
+              "RelativeDocumentMoniker": "PtaK22CNT4LS10\\Views\\PtaAccounts\\Create.cshtml",
+              "ToolTip": "C:\\Work Space\\ASPNET NTU\\K22CNT4_ASPNETMVC_PhanTruongAnh\\PtaK22CNT4LS10\\PtaK22CNT4LS10\\Views\\PtaAccounts\\Create.cshtml",
+              "RelativeToolTip": "PtaK22CNT4LS10\\Views\\PtaAccounts\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-03T07:54:17.536Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Model1.edmx [Diagram1]",
+              "DocumentMoniker": "C:\\Work Space\\ASPNET NTU\\K22CNT4_ASPNETMVC_PhanTruongAnh\\PtaK22CNT4LS10\\PtaK22CNT4LS10\\Models\\Model1.edmx",
+              "RelativeDocumentMoniker": "PtaK22CNT4LS10\\Models\\Model1.edmx",
+              "ToolTip": "C:\\Work Space\\ASPNET NTU\\K22CNT4_ASPNETMVC_PhanTruongAnh\\PtaK22CNT4LS10\\PtaK22CNT4LS10\\Models\\Model1.edmx [Diagram1]",
+              "RelativeToolTip": "PtaK22CNT4LS10\\Models\\Model1.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2024-07-03T07:46:09.516Z",
+              "EditorCaption": " [Diagram1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RouteConfig.cs",
+              "DocumentMoniker": "C:\\Work Space\\ASPNET NTU\\K22CNT4_ASPNETMVC_PhanTruongAnh\\PtaK22CNT4LS10\\PtaK22CNT4LS10\\App_Start\\RouteConfig.cs",
+              "RelativeDocumentMoniker": "PtaK22CNT4LS10\\App_Start\\RouteConfig.cs",
+              "ToolTip": "C:\\Work Space\\ASPNET NTU\\K22CNT4_ASPNETMVC_PhanTruongAnh\\PtaK22CNT4LS10\\PtaK22CNT4LS10\\App_Start\\RouteConfig.cs",
+              "RelativeToolTip": "PtaK22CNT4LS10\\App_Start\\RouteConfig.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-03T07:10:17.729Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Work Space\\ASPNET NTU\\K22CNT4_ASPNETMVC_PhanTruongAnh\\PtaK22CNT4LS10\\PtaK22CNT4LS10\\Views\\Web.config",
+              "RelativeDocumentMoniker": "PtaK22CNT4LS10\\Views\\Web.config",
+              "ToolTip": "C:\\Work Space\\ASPNET NTU\\K22CNT4_ASPNETMVC_PhanTruongAnh\\PtaK22CNT4LS10\\PtaK22CNT4LS10\\Views\\Web.config",
+              "RelativeToolTip": "PtaK22CNT4LS10\\Views\\Web.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-07-03T07:08:59.713Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Work Space\\ASPNET NTU\\K22CNT4_ASPNETMVC_PhanTruongAnh\\PtaK22CNT4LS10\\PtaK22CNT4LS10\\Web.config",
+              "RelativeDocumentMoniker": "PtaK22CNT4LS10\\Web.config",
+              "ToolTip": "C:\\Work Space\\ASPNET NTU\\K22CNT4_ASPNETMVC_PhanTruongAnh\\PtaK22CNT4LS10\\PtaK22CNT4LS10\\Web.config",
+              "RelativeToolTip": "PtaK22CNT4LS10\\Web.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEYAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-07-03T07:09:04.743Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Work Space\\ASPNET NTU\\K22CNT4_ASPNETMVC_PhanTruongAnh\\PtaK22CNT4LS10\\PtaK22CNT4LS10\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "PtaK22CNT4LS10\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Work Space\\ASPNET NTU\\K22CNT4_ASPNETMVC_PhanTruongAnh\\PtaK22CNT4LS10\\PtaK22CNT4LS10\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "PtaK22CNT4LS10\\Views\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-03T07:03:39.102Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

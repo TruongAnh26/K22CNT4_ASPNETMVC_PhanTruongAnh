@@ -1,0 +1,64 @@
+﻿@model IEnumerable<PtaK22CNT4LS10.Models.PtaAccount>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_PtaLayout.cshtml";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.PtaUserName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PtaPassword)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PtaFullName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PtaEmail)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PtaPhone)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PtaActive)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.PtaUserName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.PtaPassword)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.PtaFullName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.PtaEmail)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.PtaPhone)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.PtaActive)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.PtaID }) |
+            @Html.ActionLink("Details", "Details", new { id=item.PtaID }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.PtaID })
+        </td>
+    </tr>
+}
+
+</table>

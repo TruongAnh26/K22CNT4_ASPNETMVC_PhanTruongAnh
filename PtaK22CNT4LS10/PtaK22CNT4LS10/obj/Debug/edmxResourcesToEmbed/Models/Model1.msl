@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="K22CNT4DFLESSON10ModelStoreContainer" CdmEntityContainer="K22CNT4DFLESSON10Entities">
+    <EntitySetMapping Name="PtaAccount">
+      <EntityTypeMapping TypeName="K22CNT4DFLESSON10Model.PtaAccount">
+        <MappingFragment StoreEntitySet="PtaAccount">
+          <ScalarProperty Name="PtaID" ColumnName="PtaID" />
+          <ScalarProperty Name="PtaUserName" ColumnName="PtaUserName" />
+          <ScalarProperty Name="PtaPassword" ColumnName="PtaPassword" />
+          <ScalarProperty Name="PtaFullName" ColumnName="PtaFullName" />
+          <ScalarProperty Name="PtaEmail" ColumnName="PtaEmail" />
+          <ScalarProperty Name="PtaPhone" ColumnName="PtaPhone" />
+          <ScalarProperty Name="PtaActive" ColumnName="PtaActive" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

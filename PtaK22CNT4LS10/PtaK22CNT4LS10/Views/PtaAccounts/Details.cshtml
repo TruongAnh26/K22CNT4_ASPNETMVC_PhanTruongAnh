@@ -1,0 +1,67 @@
+﻿@model PtaK22CNT4LS10.Models.PtaAccount
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_PtaLayout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>PtaAccount</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.PtaUserName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PtaUserName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PtaPassword)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PtaPassword)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PtaFullName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PtaFullName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PtaEmail)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PtaEmail)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PtaPhone)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PtaPhone)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PtaActive)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PtaActive)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.PtaID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

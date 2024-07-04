@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="PtaK22CNT4Lessson11DbModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="PtaCategory">
+    <Key>
+      <PropertyRef Name="PtaID" />
+    </Key>
+    <Property Name="PtaID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="PtaCateName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="PtaStatus" Type="Boolean" />
+    <NavigationProperty Name="PtaProducts" Relationship="Self.FK_PtaProduct_PtaCategory" FromRole="PtaCategory" ToRole="PtaProduct" />
+  </EntityType>
+  <EntityType Name="PtaProduct">
+    <Key>
+      <PropertyRef Name="PtaID2210900087" />
+    </Key>
+    <Property Name="PtaID2210900087" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="PtaProName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="PtaQty" Type="Int32" />
+    <Property Name="PtaPrice" Type="Double" />
+    <Property Name="PtaCateId" Type="Int32" />
+    <Property Name="PtaActive" Type="Boolean" />
+    <NavigationProperty Name="PtaCategory" Relationship="Self.FK_PtaProduct_PtaCategory" FromRole="PtaProduct" ToRole="PtaCategory" />
+  </EntityType>
+  <Association Name="FK_PtaProduct_PtaCategory">
+    <End Role="PtaCategory" Type="Self.PtaCategory" Multiplicity="0..1" />
+    <End Role="PtaProduct" Type="Self.PtaProduct" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PtaCategory">
+        <PropertyRef Name="PtaID" />
+      </Principal>
+      <Dependent Role="PtaProduct">
+        <PropertyRef Name="PtaCateId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="PtaK22CNT4Lessson11DbEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="PtaCategories" EntityType="Self.PtaCategory" />
+    <EntitySet Name="PtaProducts" EntityType="Self.PtaProduct" />
+    <AssociationSet Name="FK_PtaProduct_PtaCategory" Association="Self.FK_PtaProduct_PtaCategory">
+      <End Role="PtaCategory" EntitySet="PtaCategories" />
+      <End Role="PtaProduct" EntitySet="PtaProducts" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

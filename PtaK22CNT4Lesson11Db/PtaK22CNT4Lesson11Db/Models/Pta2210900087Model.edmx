@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="PtaK22CNT4Lessson11DbModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="PtaCategory">
+          <Key>
+            <PropertyRef Name="PtaID" />
+          </Key>
+          <Property Name="PtaID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="PtaCateName" Type="nvarchar" MaxLength="50" />
+          <Property Name="PtaStatus" Type="bit" />
+        </EntityType>
+        <EntityType Name="PtaProduct">
+          <Key>
+            <PropertyRef Name="PtaID2210900087" />
+          </Key>
+          <Property Name="PtaID2210900087" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="PtaProName" Type="nvarchar" MaxLength="50" />
+          <Property Name="PtaQty" Type="int" />
+          <Property Name="PtaPrice" Type="float" />
+          <Property Name="PtaCateId" Type="int" />
+          <Property Name="PtaActive" Type="bit" />
+        </EntityType>
+        <Association Name="FK_PtaProduct_PtaCategory">
+          <End Role="PtaCategory" Type="Self.PtaCategory" Multiplicity="0..1" />
+          <End Role="PtaProduct" Type="Self.PtaProduct" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="PtaCategory">
+              <PropertyRef Name="PtaID" />
+            </Principal>
+            <Dependent Role="PtaProduct">
+              <PropertyRef Name="PtaCateId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="PtaK22CNT4Lessson11DbModelStoreContainer">
+          <EntitySet Name="PtaCategory" EntityType="Self.PtaCategory" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="PtaProduct" EntityType="Self.PtaProduct" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK_PtaProduct_PtaCategory" Association="Self.FK_PtaProduct_PtaCategory">
+            <End Role="PtaCategory" EntitySet="PtaCategory" />
+            <End Role="PtaProduct" EntitySet="PtaProduct" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="PtaK22CNT4Lessson11DbModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="PtaCategory">
+          <Key>
+            <PropertyRef Name="PtaID" />
+          </Key>
+          <Property Name="PtaID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="PtaCateName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="PtaStatus" Type="Boolean" />
+          <NavigationProperty Name="PtaProducts" Relationship="Self.FK_PtaProduct_PtaCategory" FromRole="PtaCategory" ToRole="PtaProduct" />
+        </EntityType>
+        <EntityType Name="PtaProduct">
+          <Key>
+            <PropertyRef Name="PtaID2210900087" />
+          </Key>
+          <Property Name="PtaID2210900087" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="PtaProName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="PtaQty" Type="Int32" />
+          <Property Name="PtaPrice" Type="Double" />
+          <Property Name="PtaCateId" Type="Int32" />
+          <Property Name="PtaActive" Type="Boolean" />
+          <NavigationProperty Name="PtaCategory" Relationship="Self.FK_PtaProduct_PtaCategory" FromRole="PtaProduct" ToRole="PtaCategory" />
+        </EntityType>
+        <Association Name="FK_PtaProduct_PtaCategory">
+          <End Role="PtaCategory" Type="Self.PtaCategory" Multiplicity="0..1" />
+          <End Role="PtaProduct" Type="Self.PtaProduct" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="PtaCategory">
+              <PropertyRef Name="PtaID" />
+            </Principal>
+            <Dependent Role="PtaProduct">
+              <PropertyRef Name="PtaCateId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="PtaK22CNT4Lessson11DbEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="PtaCategories" EntityType="Self.PtaCategory" />
+          <EntitySet Name="PtaProducts" EntityType="Self.PtaProduct" />
+          <AssociationSet Name="FK_PtaProduct_PtaCategory" Association="Self.FK_PtaProduct_PtaCategory">
+            <End Role="PtaCategory" EntitySet="PtaCategories" />
+            <End Role="PtaProduct" EntitySet="PtaProducts" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="PtaK22CNT4Lessson11DbModelStoreContainer" CdmEntityContainer="PtaK22CNT4Lessson11DbEntities">
+          <EntitySetMapping Name="PtaCategories">
+            <EntityTypeMapping TypeName="PtaK22CNT4Lessson11DbModel.PtaCategory">
+              <MappingFragment StoreEntitySet="PtaCategory">
+                <ScalarProperty Name="PtaID" ColumnName="PtaID" />
+                <ScalarProperty Name="PtaCateName" ColumnName="PtaCateName" />
+                <ScalarProperty Name="PtaStatus" ColumnName="PtaStatus" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="PtaProducts">
+            <EntityTypeMapping TypeName="PtaK22CNT4Lessson11DbModel.PtaProduct">
+              <MappingFragment StoreEntitySet="PtaProduct">
+                <ScalarProperty Name="PtaID2210900087" ColumnName="PtaID2210900087" />
+                <ScalarProperty Name="PtaProName" ColumnName="PtaProName" />
+                <ScalarProperty Name="PtaQty" ColumnName="PtaQty" />
+                <ScalarProperty Name="PtaPrice" ColumnName="PtaPrice" />
+                <ScalarProperty Name="PtaCateId" ColumnName="PtaCateId" />
+                <ScalarProperty Name="PtaActive" ColumnName="PtaActive" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

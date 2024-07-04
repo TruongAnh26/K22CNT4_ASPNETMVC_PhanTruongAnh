@@ -1,0 +1,59 @@
+﻿@model PtaK22CNT4Lesson11Db.Models.PtaProduct
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Pta2210900087Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>PtaProduct</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.PtaProName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PtaProName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PtaQty)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PtaQty)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PtaPrice)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PtaPrice)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PtaActive)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PtaActive)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PtaCategory.PtaCateName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PtaCategory.PtaCateName)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "PtaEdit", new { id = Model.PtaID2210900087 }) |
+    @Html.ActionLink("Back to List", "PtaIndex")
+</p>

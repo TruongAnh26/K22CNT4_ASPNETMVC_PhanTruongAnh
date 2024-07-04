@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="PtaK22CNT4Lessson11DbModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="PtaCategory">
+    <Key>
+      <PropertyRef Name="PtaID" />
+    </Key>
+    <Property Name="PtaID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="PtaCateName" Type="nvarchar" MaxLength="50" />
+    <Property Name="PtaStatus" Type="bit" />
+  </EntityType>
+  <EntityType Name="PtaProduct">
+    <Key>
+      <PropertyRef Name="PtaID2210900087" />
+    </Key>
+    <Property Name="PtaID2210900087" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="PtaProName" Type="nvarchar" MaxLength="50" />
+    <Property Name="PtaQty" Type="int" />
+    <Property Name="PtaPrice" Type="float" />
+    <Property Name="PtaCateId" Type="int" />
+    <Property Name="PtaActive" Type="bit" />
+  </EntityType>
+  <Association Name="FK_PtaProduct_PtaCategory">
+    <End Role="PtaCategory" Type="Self.PtaCategory" Multiplicity="0..1" />
+    <End Role="PtaProduct" Type="Self.PtaProduct" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PtaCategory">
+        <PropertyRef Name="PtaID" />
+      </Principal>
+      <Dependent Role="PtaProduct">
+        <PropertyRef Name="PtaCateId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="PtaK22CNT4Lessson11DbModelStoreContainer">
+    <EntitySet Name="PtaCategory" EntityType="Self.PtaCategory" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="PtaProduct" EntityType="Self.PtaProduct" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_PtaProduct_PtaCategory" Association="Self.FK_PtaProduct_PtaCategory">
+      <End Role="PtaCategory" EntitySet="PtaCategory" />
+      <End Role="PtaProduct" EntitySet="PtaProduct" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

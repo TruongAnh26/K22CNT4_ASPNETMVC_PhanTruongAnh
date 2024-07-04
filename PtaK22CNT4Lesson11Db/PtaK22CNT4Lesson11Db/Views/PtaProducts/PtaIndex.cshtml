@@ -1,0 +1,64 @@
+﻿@model IEnumerable<PtaK22CNT4Lesson11Db.Models.PtaProduct>
+
+@{
+    ViewBag.Title = "Danh sách sản phẩm";
+    Layout = "~/Views/Shared/_Pta2210900087Layout.cshtml";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "PtaCreate")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.PtaID2210900087)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PtaProName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PtaQty)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PtaPrice)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PtaActive)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PtaCategory.PtaCateName)
+        </th>
+        <th>Chức năng</th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.PtaID2210900087)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.PtaProName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.PtaQty)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.PtaPrice)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.PtaActive)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.PtaCategory.PtaCateName)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "PtaEdit", new { id = item.PtaID2210900087 }) |
+            @Html.ActionLink("Details", "PtaDetails", new { id = item.PtaID2210900087 }) |
+            @Html.ActionLink("Delete", "PtaDelete", new { id = item.PtaID2210900087 })
+        </td>
+    </tr>
+}
+
+</table>

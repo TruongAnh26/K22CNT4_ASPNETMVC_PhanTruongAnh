@@ -1,0 +1,65 @@
+﻿@model PtaK22CNT4Lesson11Db.Models.PtaProduct
+
+@{
+    ViewBag.Title = "Delete";
+    Layout = "~/Views/Shared/_Pta2210900087Layout.cshtml";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>PtaProduct</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.PtaProName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PtaProName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PtaQty)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PtaQty)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PtaPrice)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PtaPrice)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PtaActive)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PtaActive)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PtaCategory.PtaCateName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PtaCategory.PtaCateName)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "PtaIndex")
+        </div>
+    }
+</div>

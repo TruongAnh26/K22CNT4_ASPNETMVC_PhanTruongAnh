@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="PhanTruongAnh_2210900087Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Pta_Sach">
+    <Key>
+      <PropertyRef Name="Pta_MaSach" />
+    </Key>
+    <Property Name="Pta_MaSach" Type="char" MaxLength="10" Nullable="false" />
+    <Property Name="Pta_TenSach" Type="nvarchar" MaxLength="50" />
+    <Property Name="Pta_SoTrang" Type="int" />
+    <Property Name="Pta_NamXB" Type="int" />
+    <Property Name="Pta_MaTG" Type="char" MaxLength="10" />
+    <Property Name="Pta_TrangThai" Type="bit" />
+  </EntityType>
+  <EntityType Name="PtaTacGia">
+    <Key>
+      <PropertyRef Name="Pta_MaTG" />
+    </Key>
+    <Property Name="Pta_MaTG" Type="char" MaxLength="10" Nullable="false" />
+    <Property Name="Pta_TenTG" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <Association Name="FK_Pta_Sach_PtaTacGia">
+    <End Role="PtaTacGia" Type="Self.PtaTacGia" Multiplicity="0..1" />
+    <End Role="Pta_Sach" Type="Self.Pta_Sach" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PtaTacGia">
+        <PropertyRef Name="Pta_MaTG" />
+      </Principal>
+      <Dependent Role="Pta_Sach">
+        <PropertyRef Name="Pta_MaTG" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="PhanTruongAnh_2210900087ModelStoreContainer">
+    <EntitySet Name="Pta_Sach" EntityType="Self.Pta_Sach" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="PtaTacGia" EntityType="Self.PtaTacGia" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_Pta_Sach_PtaTacGia" Association="Self.FK_Pta_Sach_PtaTacGia">
+      <End Role="PtaTacGia" EntitySet="PtaTacGia" />
+      <End Role="Pta_Sach" EntitySet="Pta_Sach" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

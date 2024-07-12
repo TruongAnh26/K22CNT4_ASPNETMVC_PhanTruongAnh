@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="PhanTruongAnh_2210900087Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Pta_Sach">
+          <Key>
+            <PropertyRef Name="Pta_MaSach" />
+          </Key>
+          <Property Name="Pta_MaSach" Type="char" MaxLength="10" Nullable="false" />
+          <Property Name="Pta_TenSach" Type="nvarchar" MaxLength="50" />
+          <Property Name="Pta_SoTrang" Type="int" />
+          <Property Name="Pta_NamXB" Type="int" />
+          <Property Name="Pta_MaTG" Type="char" MaxLength="10" />
+          <Property Name="Pta_TrangThai" Type="bit" />
+        </EntityType>
+        <EntityType Name="PtaTacGia">
+          <Key>
+            <PropertyRef Name="Pta_MaTG" />
+          </Key>
+          <Property Name="Pta_MaTG" Type="char" MaxLength="10" Nullable="false" />
+          <Property Name="Pta_TenTG" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <Association Name="FK_Pta_Sach_PtaTacGia">
+          <End Role="PtaTacGia" Type="Self.PtaTacGia" Multiplicity="0..1" />
+          <End Role="Pta_Sach" Type="Self.Pta_Sach" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="PtaTacGia">
+              <PropertyRef Name="Pta_MaTG" />
+            </Principal>
+            <Dependent Role="Pta_Sach">
+              <PropertyRef Name="Pta_MaTG" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="PhanTruongAnh_2210900087ModelStoreContainer">
+          <EntitySet Name="Pta_Sach" EntityType="Self.Pta_Sach" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="PtaTacGia" EntityType="Self.PtaTacGia" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK_Pta_Sach_PtaTacGia" Association="Self.FK_Pta_Sach_PtaTacGia">
+            <End Role="PtaTacGia" EntitySet="PtaTacGia" />
+            <End Role="Pta_Sach" EntitySet="Pta_Sach" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="PhanTruongAnh_2210900087Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Pta_Sach">
+          <Key>
+            <PropertyRef Name="Pta_MaSach" />
+          </Key>
+          <Property Name="Pta_MaSach" Type="String" MaxLength="10" FixedLength="true" Unicode="false" Nullable="false" />
+          <Property Name="Pta_TenSach" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Pta_SoTrang" Type="Int32" />
+          <Property Name="Pta_NamXB" Type="Int32" />
+          <Property Name="Pta_MaTG" Type="String" MaxLength="10" FixedLength="true" Unicode="false" />
+          <Property Name="Pta_TrangThai" Type="Boolean" />
+          <NavigationProperty Name="PtaTacGia" Relationship="Self.FK_Pta_Sach_PtaTacGia" FromRole="Pta_Sach" ToRole="PtaTacGia" />
+        </EntityType>
+        <EntityType Name="PtaTacGia">
+          <Key>
+            <PropertyRef Name="Pta_MaTG" />
+          </Key>
+          <Property Name="Pta_MaTG" Type="String" MaxLength="10" FixedLength="true" Unicode="false" Nullable="false" />
+          <Property Name="Pta_TenTG" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="Pta_Sach" Relationship="Self.FK_Pta_Sach_PtaTacGia" FromRole="PtaTacGia" ToRole="Pta_Sach" />
+        </EntityType>
+        <Association Name="FK_Pta_Sach_PtaTacGia">
+          <End Role="PtaTacGia" Type="Self.PtaTacGia" Multiplicity="0..1" />
+          <End Role="Pta_Sach" Type="Self.Pta_Sach" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="PtaTacGia">
+              <PropertyRef Name="Pta_MaTG" />
+            </Principal>
+            <Dependent Role="Pta_Sach">
+              <PropertyRef Name="Pta_MaTG" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="PhanTruongAnh_2210900087Entities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Pta_Sach" EntityType="Self.Pta_Sach" />
+          <EntitySet Name="PtaTacGias" EntityType="Self.PtaTacGia" />
+          <AssociationSet Name="FK_Pta_Sach_PtaTacGia" Association="Self.FK_Pta_Sach_PtaTacGia">
+            <End Role="PtaTacGia" EntitySet="PtaTacGias" />
+            <End Role="Pta_Sach" EntitySet="Pta_Sach" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="PhanTruongAnh_2210900087ModelStoreContainer" CdmEntityContainer="PhanTruongAnh_2210900087Entities">
+          <EntitySetMapping Name="Pta_Sach">
+            <EntityTypeMapping TypeName="PhanTruongAnh_2210900087Model.Pta_Sach">
+              <MappingFragment StoreEntitySet="Pta_Sach">
+                <ScalarProperty Name="Pta_MaSach" ColumnName="Pta_MaSach" />
+                <ScalarProperty Name="Pta_TenSach" ColumnName="Pta_TenSach" />
+                <ScalarProperty Name="Pta_SoTrang" ColumnName="Pta_SoTrang" />
+                <ScalarProperty Name="Pta_NamXB" ColumnName="Pta_NamXB" />
+                <ScalarProperty Name="Pta_MaTG" ColumnName="Pta_MaTG" />
+                <ScalarProperty Name="Pta_TrangThai" ColumnName="Pta_TrangThai" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="PtaTacGias">
+            <EntityTypeMapping TypeName="PhanTruongAnh_2210900087Model.PtaTacGia">
+              <MappingFragment StoreEntitySet="PtaTacGia">
+                <ScalarProperty Name="Pta_MaTG" ColumnName="Pta_MaTG" />
+                <ScalarProperty Name="Pta_TenTG" ColumnName="Pta_TenTG" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

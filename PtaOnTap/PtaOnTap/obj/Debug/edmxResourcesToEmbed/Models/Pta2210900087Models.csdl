@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="PhanTruongAnh_2210900087Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Pta_Sach">
+    <Key>
+      <PropertyRef Name="Pta_MaSach" />
+    </Key>
+    <Property Name="Pta_MaSach" Type="String" MaxLength="10" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="Pta_TenSach" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Pta_SoTrang" Type="Int32" />
+    <Property Name="Pta_NamXB" Type="Int32" />
+    <Property Name="Pta_MaTG" Type="String" MaxLength="10" FixedLength="true" Unicode="false" />
+    <Property Name="Pta_TrangThai" Type="Boolean" />
+    <NavigationProperty Name="PtaTacGia" Relationship="Self.FK_Pta_Sach_PtaTacGia" FromRole="Pta_Sach" ToRole="PtaTacGia" />
+  </EntityType>
+  <EntityType Name="PtaTacGia">
+    <Key>
+      <PropertyRef Name="Pta_MaTG" />
+    </Key>
+    <Property Name="Pta_MaTG" Type="String" MaxLength="10" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="Pta_TenTG" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Pta_Sach" Relationship="Self.FK_Pta_Sach_PtaTacGia" FromRole="PtaTacGia" ToRole="Pta_Sach" />
+  </EntityType>
+  <Association Name="FK_Pta_Sach_PtaTacGia">
+    <End Role="PtaTacGia" Type="Self.PtaTacGia" Multiplicity="0..1" />
+    <End Role="Pta_Sach" Type="Self.Pta_Sach" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PtaTacGia">
+        <PropertyRef Name="Pta_MaTG" />
+      </Principal>
+      <Dependent Role="Pta_Sach">
+        <PropertyRef Name="Pta_MaTG" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="PhanTruongAnh_2210900087Entities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Pta_Sach" EntityType="Self.Pta_Sach" />
+    <EntitySet Name="PtaTacGias" EntityType="Self.PtaTacGia" />
+    <AssociationSet Name="FK_Pta_Sach_PtaTacGia" Association="Self.FK_Pta_Sach_PtaTacGia">
+      <End Role="PtaTacGia" EntitySet="PtaTacGias" />
+      <End Role="Pta_Sach" EntitySet="Pta_Sach" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

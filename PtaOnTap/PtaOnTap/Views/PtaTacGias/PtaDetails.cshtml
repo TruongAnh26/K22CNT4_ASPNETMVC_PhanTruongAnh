@@ -1,0 +1,27 @@
+﻿@model PtaOnTap.Models.PtaTacGia
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_PtaLayout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>PtaTacGia</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Pta_TenTG)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Pta_TenTG)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "PtaEdit", new { id = Model.Pta_MaTG }) |
+    @Html.ActionLink("Back to List", "PtaIndex")
+</p>
